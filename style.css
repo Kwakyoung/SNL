@@ -155,13 +155,14 @@ legend{
 }
 .d-flex input{
   flex: 8;
+  padding: 1rem 0;
 }
 .flex-8{
   flex : 8
 }
 
 .d-flex > div {     /* 자손 선택자 : 직계 (아들, 딸 선택자) */
-    margin-left: 75px;
+    margin-left: 95px;
 }
 
 [type=submit], [type=reset] {   /* 속성 선택자 : button 태그, type 속성, submit 값 */
@@ -186,4 +187,15 @@ legend{
   width:800px ;
   max-width:800px;
 }
+
+[type=text], [type=password], [type=tel], [type=email]{
+  text-indent: 1rem;
+}
+.ml-0{
+  margin-left: 0 !important; /* 다른 어떤것보다 우선 적용할 것 (너무 많이 사용x) */
+}
+#reg_ad{
+  margin-bottom: 0;
+}
+
 
